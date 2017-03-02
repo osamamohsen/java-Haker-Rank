@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="HomeApp">
+<head>
+
+    <script type="text/javascript" src="../libs/js/angular.min.js"></script>
+    <script type="text/javascript" src="../libs/js/angular-route.js"></script>
+    <script src="../publicResources/app.js" type="text/javascript"></script>
+    <script src="../publicResources/Controller/HomeController.js" type="text/javascript"></script>
+
+    <link rel="stylesheet" type="text/css" href="../libs/css/bootstrap.min.css"/>
+
+    <title>AngularJS Routing example</title>
+</head>
+<body class="container">
+<div class="list-group">
+    <ul>
+        <li class="list-group-item"><a href="#contactus"> contact</a></li>
+        <li class="list-group-item"><a href="#login"> login </a></li>
+        <li class="list-group-item"><a href="#home"> home </a></li>
+    </ul>
+</div>
+<div ng-view></div>
+
+</body>
+</html>

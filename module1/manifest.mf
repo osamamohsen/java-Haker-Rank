@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+AutoUpdate-Show-In-Client: true
+OpenIDE-Module: osma
+OpenIDE-Module-Localizing-Bundle: osma/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+
