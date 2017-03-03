@@ -29,8 +29,8 @@ public class WeightedMean {
             weights += y;
             sum += ar[i]*y;
         }
-        double result = (double)(sum/weights);
-        System.out.println(result);
+        double result = (double)((double)sum/(double)weights);
+        System.out.println(String.format("%.1f",result));
         }
     
 }
